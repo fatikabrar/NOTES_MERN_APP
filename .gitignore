@@ -3,18 +3,20 @@ node_modules/
 CLIENT/node_modules/
 SERVER/node_modules/
 
+# Build output
+build/
+CLIENT/build/
+SERVER/build/
+
+# VS Code
+.vscode/
+CLIENT/.vscode/
+SERVER/.vscode/
+
 # Environment files
 .env
 CLIENT/.env
 SERVER/.env
 
-# Build folders
-build/
-dist/
-
 # Logs
 *.log
-
-# OS files
-.DS_Store
-Thumbs.db
